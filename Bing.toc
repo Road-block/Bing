@@ -1,0 +1,9 @@
+# Interface: 11303
+## Interface: 90001
+
+## Title: Bing
+## Notes: Can't find it? Bing it.
+## Author: Ne0nguy
+## Version: 9.0.1.14
+## X-Website: Ne0nguy.com
+Bing.lua
