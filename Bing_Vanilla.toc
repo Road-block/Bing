@@ -1,8 +1,8 @@
-## Interface: 110107 50500 11507
+## Interface: 11507
 
 ## Title: Bing
 ## Notes: Can't find it? Bing it.
 ## Author: Ne0nguy
-## Version: 11.1.0
+## Version: 1.15.1
 
 Bing.lua
