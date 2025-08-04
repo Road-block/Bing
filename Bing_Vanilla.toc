@@ -3,6 +3,6 @@
 ## Title: Bing
 ## Notes: Can't find it? Bing it.
 ## Author: Ne0nguy
-## Version: 1.15.1
+## Version: 1.15.2
 
 Bing.lua

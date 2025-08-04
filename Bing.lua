@@ -45,7 +45,8 @@ function addon.SearchEaster(self)
 	end
 end
 
-function addon.NotFilteredTip()
+function addon.NotFilteredTip(self)
+  local self = self or GameTooltip
 	if self:GetItem() or self:GetSpell() or self:GetUnit() then return end
 	if WorldMapFrame and WorldMapFrame:IsVisible() and WorldMapFrame:IsMouseOver() then return end
 	if WatchFrame and WatchFrame:IsVisible() and WatchFrame:IsMouseOver() then return end
@@ -66,7 +67,7 @@ function addon.SearchTooltip(self)
 					return
 				end
 			else
-				if addon.NotFilteredTip() then
+				if addon.NotFilteredTip(self) then
 					for i=1,self:NumLines() do
 						local left = _G[self:GetName().."TextLeft" .. i]:GetText();
 						local right = _G[self:GetName().."TextRight" .. i]:GetText();
